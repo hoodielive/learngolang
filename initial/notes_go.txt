@@ -27,4 +27,59 @@ if its package main, then it's executable - any other name is a reusable
     fmt.Println -> tells it to print arg and return new line
     
 
-How is the main.go file organized? 
+5. How is the main.go file organized? 
+    if your namespace is 'main' :: it is like a container housing all other 'reusable' code function/snippets 
+
+
+Consider the following 
+
+package main 
+
+import "fmt" // if this is left off [visual code studio] will put it in there for you
+
+func main() {
+    // there are two ways to declare a variable in golang
+    1. var card string = "Ace of Spades" 
+        or
+
+    2. card := "Ace of Spades" // by inference 
+        Keep in mind 
+            := is only used on an initial declaration and does not have to be used again on 'assignment' 
+
+        fmt.Println(card) // means pull the print on new line functionality from the fmt package and print the content of card
+
+} 
+
+
+func newCard() string {
+    return "some sort of string" 
+} 
+
+Note: you have to tell newCard what 'primitive type' the return statement is to retreive 
+
+
+package main 
+
+import "fmt" 
+
+func main() { 
+    card := "Ace of Spades"
+    fmt.Println(card) 
+} 
+
+func newCard() string {
+    return "Some sort of string" 
+} 
+
+
+#### ARRAY DATA STRUCTURES ### 
+
+There are 2 types of arrays in go
+
+- Array and Slice 
+
+Array -> Fixed length list of things  -> primitive data struct for holding a list of records 
+Slice -> An array that can grow or shrink  ->
+
+Every element in slice must be of the same type 
+
