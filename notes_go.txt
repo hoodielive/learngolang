@@ -1,0 +1,30 @@
+Notes
+
+1. How do we run the code in the project? 
+go run <filename> 
+
+2. What does 'package main' mean? 
+Package == Project == Workspace (a collection of common source code files)
+First line must declare the project or main file declared that it belongs to
+In go there are 2 types of packages: 
+
+    executable and reusable 
+    
+    executable -> go build main.go :: used to do stuff
+    
+    resuable -> helper functions and stuff like this
+
+if its package main, then it's executable - any other name is a reusable
+
+3. What does 'import "fmt" mean? 
+    main-> |fmt| main-> |math| main-> |encoding| 
+    golang.org/pkg (to find packages that expand functionality)
+
+
+4. What's the func thing? 
+    func -> declares a function main
+    main -> is the name of the function 
+    fmt.Println -> tells it to print arg and return new line
+    
+
+How is the main.go file organized? 
