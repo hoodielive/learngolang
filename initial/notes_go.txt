@@ -83,3 +83,4 @@ Slice -> An array that can grow or shrink  ->
 
 Every element in slice must be of the same type 
 
+slices are 'zero-indexed'
