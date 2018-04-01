@@ -6,7 +6,7 @@ import(
 ) 
 
 func main() {
-	fmt.Println("My favorite is", rand.Seed()) 
+	fmt.Println("My favorite is", rand.Intn(10)) 
 } 
 
 
