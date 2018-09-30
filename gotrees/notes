@@ -1,0 +1,19 @@
+Google's goals for go:
+- Fast builds 
+- Fast execution 
+- Concurrency 
+- Garbage Collection 
+
+Go is designed for simplicity and speed
+- No function overloading 
+- No exceptions 
+- No class inheritance 
+
+Deploying a Go app
+- Executables are compiled native binaries 
+- Compile for Windows, Mac or Linux 
+- Deploy to any host that allows binary executables
+- Also supported by Google App Engine 
+
+
+
