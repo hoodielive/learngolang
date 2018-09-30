@@ -1,0 +1,21 @@
+Types of Notes:
+  
+Numbers:
+
+  Machine Dependent Integer Types [uint, int, uintptr]
+  *** signed Integers *** 
+    * int8
+    * int16
+    * int32 (rune)
+    * int64
+
+  *** unsigned integers *** 
+    * uint8  (byte)
+    * uint16
+    * uint32
+    * uint64
+
+Floating-Point Numbers 
+  *** decimals ***
+    * float32
+    * float64
