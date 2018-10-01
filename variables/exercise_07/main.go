@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-
 	name := "larry"
 	strutils.ToUpperCase(name)
 	fmt.Println(name)
