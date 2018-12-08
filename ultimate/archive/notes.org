@@ -29,3 +29,10 @@
 **** How does processing work? 
 
 ***** ram <-> cpu <-> hd
+
+** Variables
+*** 3 things to remember
+**** declare (name and type) 
+**** assign
+**** initialize (sign)
+
