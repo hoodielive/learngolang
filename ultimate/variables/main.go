@@ -4,6 +4,8 @@ import "fmt"
 
 /* declare, assign, initiliaze */
 
+var b string // this is declaration; b = "golang" is assignment
+
 func main() {
 
 	a := 10
