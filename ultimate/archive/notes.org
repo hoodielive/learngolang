@@ -5,3 +5,15 @@
 *** var a int (set to zero value) 4 bytes 
 *** var b string - 8 Bytes 
 *** := 10 productivity operator - initialize and declare at the same time
+
+** What is programming? 
+*** It starts with a computer 
+*** a computer is a tool that can store, retrieve, process and transmit data. 
+*** Programming is what people do, to 'teach' a computer how to do this. 
+*** Programming languages are a tool to help us do this. 
+**** 3 essential parts to a computer:
+***** CPU (Central Processing Unit)
+****** All processing that a computer does is in the CPU
+****** All CPU's use only binary - (on/off)
+****** CPU's only work with numbers and only run in Machine Language 
+****** Modern pcs have multi-core CPUs, that run concurrently 
