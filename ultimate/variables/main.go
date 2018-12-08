@@ -13,6 +13,7 @@ func main() {
 	c := 4.17
 	d := true
 
+	// godoc.org %v is default value for a type under package "fmt"
 	fmt.Printf("%v \n", a)
 	fmt.Printf("%v \n", b)
 	fmt.Printf("%v \n", c)
