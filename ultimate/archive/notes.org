@@ -1,0 +1,7 @@
+#+TITLE: Go Notes 
+
+** Initilization of Variables (labels) 
+*** 2 word data structure - pointer and length :: zero value (nil) 
+*** var a int (set to zero value) 4 bytes 
+*** var b string - 8 Bytes 
+*** := 10 productivity operator - initialize and declare at the same time
