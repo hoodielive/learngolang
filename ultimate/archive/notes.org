@@ -5,7 +5,7 @@
 *** var a int (set to zero value) 4 bytes 
 *** var b string - 8 Bytes 
 *** := 10 productivity operator - initialize and declare at the same time
-
+    
 ** What is programming? 
 *** It starts with a computer 
 *** a computer is a tool that can store, retrieve, process and transmit data. 
@@ -17,3 +17,15 @@
 ****** All CPU's use only binary - (on/off)
 ****** CPU's only work with numbers and only run in Machine Language 
 ****** Modern pcs have multi-core CPUs, that run concurrently 
+***** RAM
+****** Giant grid of memory cells
+****** Measured in bits, bytes, kilobytes, megabytes, gigabytes - One byte is "8 bits" a value of 0-255
+****** Temporary workspace to hold the data that computers are working on. 
+***** Hard Disk
+****** Slower, non-volatile storage
+****** Measured in bits, bytes, kilobytes, megabytes etc.
+****** One byte is "8 bits" a value of 0-255
+
+**** How does processing work? 
+
+***** ram <-> cpu <-> hd
