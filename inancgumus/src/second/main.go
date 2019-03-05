@@ -3,10 +3,12 @@ package main
 import "fmt"
 
 func main() {
-  var speed int
-  var heat float64
-  var off bool
-  var brand string
+  var (
+   speed int
+   heat float64
+   off bool
+   brand string
+  )
 
   fmt.Println(speed)
   fmt.Println(heat)
