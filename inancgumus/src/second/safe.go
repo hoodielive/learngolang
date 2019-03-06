@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func safety() {
   safe := true
   fmt.Println(safe)
 }

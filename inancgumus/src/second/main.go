@@ -1,8 +1,6 @@
 package main
 
-import(
-  "fmt"
-)
+import "fmt"
 
 func main() {
   var (
@@ -16,5 +14,5 @@ func main() {
   fmt.Println(heat)
   fmt.Println(off)
   fmt.Printf("%q\n", brand)
-  safe()
+  safety()
 }
