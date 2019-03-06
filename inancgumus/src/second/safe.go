@@ -1,8 +1,8 @@
-package safe
+package main
 
 import "fmt"
 
-func safe() {
+func main() {
   safe := true
   fmt.Println(safe)
 }
