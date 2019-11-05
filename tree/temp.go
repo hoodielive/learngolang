@@ -12,5 +12,6 @@ func main() {
 	roundedUp := math.Ceil(myNumber)
 	roundedDown := math.Floor(myNumber)
 	fmt.Println(roundedUp, roundedDown)
+	fmt.Println(stringutil.Reverse("hello"))
 
 }
