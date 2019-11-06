@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"stringutil"
 )
 
 var myNumber = 1.23
